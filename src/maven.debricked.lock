@@ -1,0 +1,44 @@
+2089636626 com.github.javafaker:javafaker:jar:1.0.3-SNAPSHOT
+1027022907 org.apache.commons:commons-lang3:jar:3.5:compile
+276970866 org.yaml:snakeyaml:jar:android:1.26:compile
+2095710480 com.github.mifmif:generex:jar:1.0.2:compile
+1183701566 dk.brics.automaton:automaton:jar:1.11-8:compile
+1428664849 org.slf4j:slf4j-api:jar:1.7.25:test
+1422883946 org.slf4j:slf4j-simple:jar:1.7.25:test
+2013332834 junit:junit:jar:4.12:test
+1349872758 org.hamcrest:hamcrest-core:jar:1.3:test
+950729555 org.hamcrest:hamcrest-library:jar:1.3:test
+388623360 org.reflections:reflections:jar:0.9.11:test
+1744032146 com.google.guava:guava:jar:20.0:test
+480118726 org.javassist:javassist:jar:3.21.0-GA:test
+1929447269 org.mockito:mockito-core:jar:2.23.4:test
+722513129 net.bytebuddy:byte-buddy:jar:1.9.3:test
+1377212248 net.bytebuddy:byte-buddy-agent:jar:1.9.3:test
+1054477035 org.objenesis:objenesis:jar:2.6:test
+1167792250 commons-validator:commons-validator:jar:1.6:test
+1799521220 commons-beanutils:commons-beanutils:jar:1.9.2:test
+218654115 commons-digester:commons-digester:jar:1.8.1:test
+1668004795 commons-logging:commons-logging:jar:1.2:test
+2125346660 commons-collections:commons-collections:jar:3.2.2:test
+#
+2089636626 1027022907 compile    
+2089636626 276970866 compile
+2095710480 1183701566 compile
+2089636626 2095710480 compile
+2089636626 1428664849 test
+2089636626 1422883946 test
+2013332834 1349872758 test
+2089636626 2013332834 test
+2089636626 950729555 test
+388623360 1744032146 test
+388623360 480118726 test
+2089636626 388623360 test
+1929447269 722513129 test
+1929447269 1377212248 test
+1929447269 1054477035 test
+2089636626 1929447269 test
+1167792250 1799521220 test
+1167792250 218654115 test
+1167792250 1668004795 test
+1167792250 2125346660 test
+2089636626 1167792250 test
