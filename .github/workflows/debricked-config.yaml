@@ -1,0 +1,20 @@
+name: Debricked
+
+on: [push]    
+
+jobs:
+  debricked:
+    runs-on: ubuntu-latest
+
+    container:
+      image: debricked/cli:latest-resolution-debian
+
+    steps:
+     - name: Checkout repository
+       uses: actions/checkout@v3     
+          
+     - name: Scan 
+       run: |          
+          debricked scan -t "0585d06e5ab6c1121cfeaddbd1582b62098e100c1a325402"   
+       env:
+          DEBRICKED_URI: 'https://review-6831-reach-qc4gm9.review.debricked.dev'
