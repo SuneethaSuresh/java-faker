@@ -15,9 +15,6 @@ jobs:
      - run: |
           ls
      - uses: debricked/actions@v4
-          
-     - name: Scan 
-       run: |          
-          debricked scan -t "89cec437167f12f984a749a43c4887d0b4dd58670bfc19d7"   
        env:
+          DEBRICKED_TOKEN: '89cec437167f12f984a749a43c4887d0b4dd58670bfc19d7'
           DEBRICKED_URI: 'https://review-6831-reach-qc4gm9.review.debricked.dev'
