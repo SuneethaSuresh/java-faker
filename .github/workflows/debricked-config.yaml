@@ -1,4 +1,4 @@
-name: Debricked
+name: Debricked scan
 
 on: [push]    
 
@@ -9,9 +9,12 @@ jobs:
     container:
       image: debricked/cli:latest-resolution-debian
 
-    steps:
-     - name: Checkout repository
-       uses: actions/checkout@v4 
+    steps:    
+     - uses: actions/checkout@v4
+     - uses: debricked/actions/callgraph@v4
+     - run: |
+          ls
+     - uses: debricked/actions@v4
           
      - name: Scan 
        run: |          
