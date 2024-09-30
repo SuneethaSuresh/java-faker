@@ -15,6 +15,6 @@ jobs:
           
      - name: Scan 
        run: |          
-          debricked scan -t "7fc3708f03aa93f53e91c0b0e3763dac329b6fd76a9a1089"   
+          debricked scan -t "a87dda7e30b24429c8d9b5fbc7cbf529014a4d90e1bca0ce"   
        env:
-          DEBRICKED_URI: 'https://review-6831-reach-qc4gm9.review.debricked.dev'
+          DEBRICKED_URI: 'https://staging.debricked.com'
